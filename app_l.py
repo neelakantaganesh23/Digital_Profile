@@ -11,7 +11,7 @@ from huggingface_hub import InferenceClient
 
 # Load environment variables from .env file
 load_dotenv()
-
+HUGGING_FACE_HUB_TOKEN = os.getenv("HUGGING_FACE_HUB_TOKEN")
 # Load Hugging Face Token
 
 if not HUGGING_FACE_HUB_TOKEN:
