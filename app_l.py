@@ -199,7 +199,7 @@ def main():
         traceback.print_exc()
         st.stop()
 
-    st.title(f"{me.name} (Llama 3.1 via HF API)")
+    st.title(f"{me.name} ( Engineer I - Data Engg & AI)")
 
     st.write(f"Welcome! Ask me about {me.name}'s career, background, skills, and experience. This bot uses Llama 3.1 via Hugging Face Inference API.")
     #st.caption("Note: Tool usage (like saving email) is currently a placeholder and will be re-implemented for Llama 3.1.")
