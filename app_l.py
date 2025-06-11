@@ -13,7 +13,7 @@ from huggingface_hub import InferenceClient
 load_dotenv()
 
 # Load Hugging Face Token
-
+HUGGING_FACE_HUB_TOKEN=os.getenv("HUGGING_FACE_HUB_TOKEN")
 if not HUGGING_FACE_HUB_TOKEN:
     st.error("HUGGING_FACE_HUB_TOKEN not found in environment variables. Please set it in your .env file.")
     st.stop()
